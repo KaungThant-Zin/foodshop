@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.ilogo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.i2logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.foottop {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Peddana', serif;
+}
+.foodlogo{
+    width: 600px;
+    height: auto;
+}
+.footfont{
+    font-family: 'Peddana', serif;
+}
+.foodcolor {
+    color: #f79400;
+}
+.headfont {
+    font-family: 'Kaushan Script', cursive;
+}
+.navfont{
+    font-family: 'Roboto', sans-serif;
+}
+.menufoods{
+    width: 600px;
+    height: 300px;
+}
