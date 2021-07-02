@@ -43,7 +43,7 @@ const Footer2 = () => {
                             <li>Privacy Policy</li>
                             <li>Refund Policy</li>
                             <li>Cookie Policy</li>
-                            <li>Terms & Condation</li>
+                            <li>Terms & Conditions</li>
                         </ul>
                     </div>
                 </div>
