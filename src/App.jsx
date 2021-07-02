@@ -7,6 +7,7 @@ import { Switch, Route } from 'react-router-dom'
 import Menu from './pages/Menu';
 import About from './pages/About';
 import Signin from './pages/Signin';
+import Footer2 from './components/Footer2';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" component={About}/>
         <Route path="/signin" component={Signin}/>  
       </Switch>
+      <Footer2/>
       <Footer />
     </div>
   );

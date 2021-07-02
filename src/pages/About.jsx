@@ -1,21 +1,24 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import about from '../assets/about.jpg'
 import whoweare from '../assets/whoweare.jpg'
 import { Link } from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom'
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
-    const [isAnimated, setIsAnimated] = useState(false)
-    useEffect(() => {
-        setIsAnimated(true)
-    }, [])
+    // const [isAnimated, setIsAnimated] = useState(false)
+    // useEffect(() => {
+    //     setIsAnimated(true)
+    // }, [])
     return (
         <div>
             <div className="grid lg:grid-cols-2 items-center">
                 <div className="p-3 mt-6 m-3 text-center">
-                    <img src={about} alt="about" className={`${isAnimated ? 'scale-100' : 'translate-x-full'} transform transition duration-1000 ease-in-out rounded-3xl object-cover w-full`} />
+                    <Fade right>
+                    <img src={about} alt="about" className=" transform transition duration-1000 ease-in-out rounded-3xl object-cover w-full" />
+                    </Fade>
                 </div>
-                <div className={`${isAnimated ? 'scale-100' : 'translate-x-full'} transform transition duration-1000 ease-in-out p-3 mt-4`}>
+                <div className="transform transition duration-1000 ease-in-out p-3 mt-4">
                     <Zoom>
                     <h1 className="headfont text-5xl fond-bold foodcolor mb-3 border-b-2 p-2">"About us"</h1>
                     
