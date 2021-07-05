@@ -14,8 +14,8 @@ const Home = () => {
     // }, [])
     return (
         <div>
-            <div className="circle"></div>
-            <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 items-center h-screen">
+            <Fade right><div className="circle"></div></Fade>
+            <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 items-center min-h-screen">
                 <div className="p-3 flex justify-center lg:hidden md:hidden">
                     <Flip>
                     <img src={logofood} alt="logofood" className="object-cover foodlogo rounded-full" />
