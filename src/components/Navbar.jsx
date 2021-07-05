@@ -10,7 +10,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <nav className="flex bg-white h-20 navbottom items-center justify-between shadow-md ">
+            <nav className="flex bg-white h-20 items-center justify-between shadow-md">
                 {/* logostart */}
                 <Link to="/" className="flex ml-5 font-bold text-3xl italic">
                     <img src={Logo} alt="logo" className="ilogo" />
