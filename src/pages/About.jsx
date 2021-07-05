@@ -15,10 +15,10 @@ const About = () => {
             <div className="grid lg:grid-cols-2 items-center">
                 <div className="p-3 mt-6 m-3 text-center">
                     <Fade right>
-                    <img src={about} alt="about" className=" transform transition duration-1000 ease-in-out rounded-3xl object-cover w-full" />
+                    <img src={about} alt="about" className=" rounded-3xl object-cover w-full" />
                     </Fade>
                 </div>
-                <div className="transform transition duration-1000 ease-in-out p-3 mt-4">
+                <div className="p-3 mt-4">
                     <Zoom>
                     <h1 className="headfont text-5xl fond-bold foodcolor mb-3 border-b-2 p-2">"About us"</h1>
                     
