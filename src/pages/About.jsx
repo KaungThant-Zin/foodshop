@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../assets/about.jpg'
+import about from '../assets/about2.jpg'
 import whoweare from '../assets/whoweare.jpg'
 import { Link } from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom'
@@ -33,7 +33,8 @@ const About = () => {
                 </div>
             </div>
             <div className="grid lg:grid-cols-2 items-center">
-                <div className="p-3">
+                {/* formobile */}
+                <div className="p-3 sm:block hidden">
                     <Zoom><h1 className="mt-2 text-5xl headfont foodcolor border-b-2 mx-3">Who we are</h1></Zoom>
                     <Zoom>
                     <p className="mt-3 mx-3 italic text-justify navfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est beatae magni nam rem deserunt quasi dignissimos, doloremque minus asperiores excepturi dicta! Minima cupiditate dolore consequuntur maiores aperiam ea, aspernatur nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sint! Necessitatibus eveniet labore assumenda, magnam natus sed obcaecati ad ab magni odio, nesciunt nisi commodi! Nulla ratione eaque voluptates expedita? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nihil fugiat dolore? Blanditiis, earum beatae porro magnam saepe non sequi numquam modi quibusdam? Dolores autem accusantium quos odit ipsam minus.</p>
@@ -44,6 +45,13 @@ const About = () => {
                     <img src={whoweare} alt="whoweare" className="rounded-3xl object-cover w-full" />
                 </div>
                 </Zoom>
+                {/* fordesktop */}
+                <div className="p-3 lg:hidden">
+                    <Zoom><h1 className="mt-2 text-5xl headfont foodcolor border-b-2 mx-3">Who we are</h1></Zoom>
+                    <Zoom>
+                    <p className="mt-3 mx-3 italic text-justify navfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est beatae magni nam rem deserunt quasi dignissimos, doloremque minus asperiores excepturi dicta! Minima cupiditate dolore consequuntur maiores aperiam ea, aspernatur nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sint! Necessitatibus eveniet labore assumenda, magnam natus sed obcaecati ad ab magni odio, nesciunt nisi commodi! Nulla ratione eaque voluptates expedita? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nihil fugiat dolore? Blanditiis, earum beatae porro magnam saepe non sequi numquam modi quibusdam? Dolores autem accusantium quos odit ipsam minus.</p>
+                    </Zoom>
+                </div>
             </div>
         </div>
     )
