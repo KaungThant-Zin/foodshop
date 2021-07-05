@@ -23,7 +23,7 @@ const Home = () => {
                 </div>
                 <Fade left>
                 <div className=" mt-5 text-center">
-                    <h1 className="navfont text-4xl lg:text-6xl">BEST <span className="foodcolor">FOODSHOP</span> EVER</h1>
+                    <h1 className="navfont text-3xl lg:text-6xl">BEST <span className="foodcolor">FOODSHOP</span> EVER</h1>
                     <p className="mt-3 mx-6 text-justify italic text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque, nesciunt voluptatibus delectus illo officiis culpa voluptas ipsa, beatae facere deserunt, ipsum cumque dolorum consequatur quia tempore provident eum. Saepe Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit fuga, fugiat tenetur delectus cupiditate minima ratione inventore porro itaque a nihil quaerat aliquam eius vel, sed fugit laudantium rerum quibusdam!</p>
                     
                     <div className="flex justify-center ml-5">
