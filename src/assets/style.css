@@ -38,12 +38,14 @@
 /* .home2bg{
     background-image: url('../assets/foodtable.jpg');
 } */
-.circle{
+/* .circle{
     right: 0;
     position: absolute;
     width: 100%;
     height: 100%;
     background: #f79400;
     /* clip-path: circle(40% at 70% 10%); */
-    clip-path: circle(30.4% at 100% 51%);
-}
+    .imgshape{
+        background: #f79400;
+        border-radius: 79% 21% 72% 28% / 37% 65% 35% 63%;
+    }

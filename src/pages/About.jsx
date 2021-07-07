@@ -46,7 +46,7 @@ const About = () => {
                 </div>
                 </Zoom>
                 {/* fordesktop */}
-                <div className="p-3 lg:hidden">
+                <div className="p-3 lg:hidden md:hidden">
                     <Zoom><h1 className="mt-2 text-5xl headfont foodcolor border-b-2 mx-3">Who we are</h1></Zoom>
                     <Zoom>
                     <p className="mt-3 mx-3 italic text-justify navfont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est beatae magni nam rem deserunt quasi dignissimos, doloremque minus asperiores excepturi dicta! Minima cupiditate dolore consequuntur maiores aperiam ea, aspernatur nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sint! Necessitatibus eveniet labore assumenda, magnam natus sed obcaecati ad ab magni odio, nesciunt nisi commodi! Nulla ratione eaque voluptates expedita? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum nihil fugiat dolore? Blanditiis, earum beatae porro magnam saepe non sequi numquam modi quibusdam? Dolores autem accusantium quos odit ipsam minus.</p>
