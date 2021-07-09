@@ -15,13 +15,13 @@ const Home = () => {
     return (
         <div>
             <div className="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 items-center min-h-screen">
-                <div className="p-3 flex justify-center lg:hidden md:hidden imgshape">
+                {/* <div className="p-3 flex justify-center lg:hidden md:hidden imgshape">
                     <Flip>
                     <img src={logofood} alt="logofood" className="object-cover foodlogo rounded-full" />
                     </Flip>
-                </div>
+                </div> */}
                 <Fade left>
-                <div className=" mt-5 text-center">
+                <div className=" mt-5 text-center lg:order-1 order-2">
                     <h1 className="navfont text-3xl lg:text-6xl">BEST <span className="foodcolor">FOODSHOP</span> EVER</h1>
                     <p className="mt-3 mx-6 text-justify italic text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit atque, nesciunt voluptatibus delectus illo officiis culpa voluptas ipsa, beatae facere deserunt, ipsum cumque dolorum consequatur quia tempore provident eum. Saepe Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit fuga, fugiat tenetur delectus cupiditate minima ratione inventore porro itaque a nihil quaerat aliquam eius vel, sed fugit laudantium rerum quibusdam!</p>
                     
@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
                 </Fade>
-                <div className=" lg:my-10 p-3 flex justify-center sm:block hidden sm:flex sm:justify-center">
+                <div className=" lg:my-10 p-3 flex justify-center sm:order-1">
                     <div className="imgshape">
                     <Flip>
                     <img src={logofood} alt="logofood" className="object-cover foodlogo rounded-full" />
