@@ -1,5 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4d1e7d9a-9f84-4de3-a173-d63ff214496c/deploy-status)](https://app.netlify.com/sites/ktzfoodshop/deploys)
 
+#Demo
+[http://localhost:3000](http://localhost:3000)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
