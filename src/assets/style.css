@@ -49,8 +49,3 @@
         background: #f79400;
         border-radius: 79% 21% 72% 28% / 37% 65% 35% 63%;
     }
-    .test{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-    }
