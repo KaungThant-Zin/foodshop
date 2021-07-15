@@ -1,11 +1,16 @@
 import React from 'react'
+import Zoom from 'react-reveal/Zoom'
 
 const Home3 = () => {
     return (
         <div>
-            <div className="navfont text-center text-3xl">
-                <h1>Popular Foods</h1>
-            </div>
+            <Zoom>
+                <div className="mt-2 flex home2bg h-screen justify-center items-center">
+                    <div className="lg:text-5xl md:text-4xl text-2xl navfont">
+                        ONLY HIGH QUALITY FOODS
+                    </div>
+                </div>
+            </Zoom>
         </div>
     )
 }

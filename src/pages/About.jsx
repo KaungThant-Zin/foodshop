@@ -32,7 +32,7 @@ const About = () => {
                     </Zoom>
                 </div>
             </div>
-            <div className="grid lg:grid-cols-2 items-center">
+            <div className="grid lg:grid-cols-2 items-center bg-gray-300">
                 {/* formobile */}
                 <div className="p-3 lg:order-1 order-2">
                     <Zoom><h1 className="mt-2 text-5xl headfont foodcolor border-b-2 mx-3">Who we are</h1></Zoom>

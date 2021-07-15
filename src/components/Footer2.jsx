@@ -5,7 +5,7 @@ import twitter from '../assets/twitter.png'
 const Footer2 = () => {
     return (
         <div>
-            <div className="foottop bg-gray-600 text-white p-4 mt-4">
+            <div className="foottop bg-gray-600 text-white p-4">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                     {/* logo */}
                     <div className="pl-4 mt-5">

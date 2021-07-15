@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
 .ilogo {
     width: 40px;
     height: 40px;
@@ -35,9 +36,11 @@
     width: 600px;
     height: 300px;
 }
-/* .home2bg{
-    background-image: url('../assets/foodtable.jpg');
-} */
+.home2bg{
+    background-image: url('../assets/home2.jpg');
+    position: relative;
+    background-size: cover;
+}
 /* .circle{
     right: 0;
     position: absolute;
@@ -45,7 +48,18 @@
     height: 100%;
     background: #f79400;
     /* clip-path: circle(40% at 70% 10%); */
-    .imgshape{
+.imgshape{
         background: #f79400;
         border-radius: 79% 21% 72% 28% / 37% 65% 35% 63%;
-    }
+}
+.testfont{
+    font-family: 'Hind Madurai', sans-serif;
+}
+.scroller{
+    scroll-snap-align: unset;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+.homebluebg{
+    background-color: #f2f7ff;
+}
