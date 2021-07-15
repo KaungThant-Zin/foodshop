@@ -22,6 +22,7 @@ const Home = () => {
                 </div> */}
             </div>
             <Home2 />
+            {/* <Home3/> */}
         </>
     )
 }

@@ -5,6 +5,7 @@ import pizza from '../assets/pizza.jpg'
 import fired_potato2 from '../assets/fired_potato2.jpg'
 import hamburger from '../assets/hamburger_foodlogo.jpg'
 import Wobble from 'react-reveal/Wobble';
+import Uptotop from './Uptotop'
 
 const Home3 = () => {
     return (
@@ -18,6 +19,7 @@ const Home3 = () => {
                 <Home2items img={cake} title="cake" price="$5"/>
                 <Home2items img={hamburger} title="hamburger" price="$4"/>
             </div>
+            <Uptotop/>
         </div>
     )
 }

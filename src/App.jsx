@@ -22,17 +22,17 @@ function App() {
     }, 3000);
   }, [])
 
-//   const override = css`
-//   margin-top: 100;
-//   justify-content: center;
-//   align-items: center;
-//   display: flex;
-//   width: 100%;
-//   height: 100%;
-// `;
+  //   const override = css`
+  //   margin-top: 100;
+  //   justify-content: center;
+  //   align-items: center;
+  //   display: flex;
+  //   width: 100%;
+  //   height: 100%;
+  // `;
   return (
     <>
-      {loading ? <Myloader/> :
+      {loading ? <Myloader /> :
         <div className="bg-white">
           <Navbar />
           <Switch>

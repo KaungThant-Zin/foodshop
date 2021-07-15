@@ -1,17 +1,19 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom'
-
+import chef from '../assets/chef.png'
 const Home3 = () => {
     return (
         <div>
-            <Zoom>
-                <div className="mt-2 flex home2bg h-screen justify-center items-center">
-                    <div className="lg:text-5xl md:text-4xl text-2xl navfont">
-                        ONLY HIGH QUALITY FOODS
+            <div className="home2bg">
+                <div className="grid lg:grid-cols-2 sm:grid-cols-1 items-center text-center">
+                    <div className="p-4">
+                        <h1 className="text-4xl lg:text-6xl navfont">ONLY HIGH QUALITY FOODS</h1>
+                    </div>
+                    <div>
+                        <img src={chef} alt="chef" />
                     </div>
                 </div>
-            </Zoom>
-        </div>
+                </div>
+            </div>
     )
 }
 
